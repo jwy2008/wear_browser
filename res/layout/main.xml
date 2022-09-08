@@ -15,7 +15,9 @@
 			android:id="@+id/searchView"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:gravity="center"/>
+			android:gravity="center"
+			android:background="#FF6A707D"/>
+
 		<Button
 			android:id="@+id/button_back"
 			android:layout_width="50dp"
@@ -27,7 +29,7 @@
 			android:onClick="back"
 			style="?android:attr/borderlessButtonStyle"
 			android:lines="1"/>
-		
+
 		<Button
 			android:id="@+id/button_reload"
 			android:layout_width="50dp"
@@ -39,6 +41,7 @@
 			android:onClick="reload"
 			style="?android:attr/borderlessButtonStyle"
 			android:lines="1"/>
+
 		<Button
 			android:id="@+id/button_home"
 			android:layout_width="50dp"
@@ -50,6 +53,7 @@
 			android:onClick="home"
 			style="?android:attr/borderlessButtonStyle"
 			android:lines="1"/>
+
 	</LinearLayout>
 
 	<WebView
