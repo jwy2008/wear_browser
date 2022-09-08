@@ -38,12 +38,20 @@ public class MainActivity extends Activity
 			public void onClick(View v){
 				myWebView.goBack();
 		}});
-		Button flushed = findViewById(R.id.button_flushed);
-		flushed.setOnClickListener(new View.OnClickListener() {
+		Button reload = findViewById(R.id.button_reload);
+		reload.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v){
 				myWebView.reload();
 			}
-	});
+		});
+		Button home = findViewById(R.id.button_home);
+		home.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v){
+			myWebView.loadUrl("https://cn.bing.com");
+			}
+		});
 }}
