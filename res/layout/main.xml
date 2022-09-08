@@ -23,20 +23,31 @@
 			android:gravity="center"
 			android:minHeight="0dp"
 			android:minWidth="0dp"
-			android:text="B"
+			android:text="&lt;"
 			android:onClick="back"
 			style="?android:attr/borderlessButtonStyle"
 			android:lines="1"/>
 		
 		<Button
-			android:id="@+id/button_flushed"
+			android:id="@+id/button_reload"
 			android:layout_width="50dp"
 			android:layout_height="50dp"
 			android:gravity="center"
 			android:minHeight="0dp"
 			android:minWidth="0dp"
-			android:text="F"
-			android:onClick="flushed"
+			android:text="R"
+			android:onClick="reload"
+			style="?android:attr/borderlessButtonStyle"
+			android:lines="1"/>
+		<Button
+			android:id="@+id/button_home"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:gravity="center"
+			android:minHeight="0dp"
+			android:minWidth="0dp"
+			android:text="H"
+			android:onClick="home"
 			style="?android:attr/borderlessButtonStyle"
 			android:lines="1"/>
 	</LinearLayout>
